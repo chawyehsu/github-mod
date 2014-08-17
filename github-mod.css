@@ -1,0 +1,15 @@
+@-moz-document domain(github.com) {
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v9/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+		text-rendering: optimizeLegibility !important;
+	}
+	body, input, select, textarea, button {
+		font-family: 'Open Sans' !important;
+	}
+	.markdown-body {
+		font-family: 'Open Sans';
+	}
+}
