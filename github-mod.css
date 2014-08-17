@@ -12,4 +12,21 @@
 	.markdown-body {
 		font-family: 'Open Sans';
 	}
+	.header {
+		position: fixed;
+		transform: translateZ(0);
+		width: 100%;
+		z-index: 10000;
+		top: 0px;
+	}
+	body {
+		padding-top: 50px;
+	}
+	.header-logged-in {
+		background-image: none;
+		background-color: #F5F5F5;
+	}
+	.new-user-avatar-cta {
+		display: none;
+	}
 }
