@@ -3,7 +3,14 @@
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 400;
-		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v9/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+		text-rendering: optimizeLegibility !important;
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: italic;
+		font-weight: 400;
+		src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
 		text-rendering: optimizeLegibility !important;
 	}
 	body, input, select, textarea, button {
