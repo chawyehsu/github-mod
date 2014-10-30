@@ -36,4 +36,16 @@
 	.new-user-avatar-cta {
 		display: none;
 	}
+
+	*:not(.mail-status) {
+	    border-radius: 0px !important;
+	}
+	.button, .button:hover,
+	.primary, .primary:hover,
+	.minibutton, .minibutton:hover,
+	.button.primary, .button.primary:hover,
+	.minibutton.primary, .minibutton.primary:hover,
+	.button.danger:hover, .minibutton.danger:hover {
+	    background-image: none;
+	}
 }
