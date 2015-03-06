@@ -63,6 +63,9 @@
 	.blob-code {
 		text-rendering: optimizeLegibility !important;
 	}
+	.sunken-menu-item.selected:after {
+		border-radius: 0px;
+	}
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
 	.header {
