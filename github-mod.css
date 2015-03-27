@@ -1,85 +1,82 @@
 @-moz-document domain(github.com) {
-	/* Open Sans */
-	/* latin */
-	@font-face {
-		font-family: 'Open Sans';
-		font-style: normal;
-		font-weight: 400;
-		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-		text-rendering: optimizeLegibility !important;
-	}
-	/* latin-ext */
-	@font-face {
-		font-family: 'Open Sans';
-		font-style: normal;
-		font-weight: 400;
-		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-		unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-		text-rendering: optimizeLegibility !important;
-	}
-	/* Open Sans Italic */
-	/* latin */
-	@font-face {
-		font-family: 'Open Sans';
-		font-style: italic;
-		font-weight: 400;
-		src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
-		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-		text-rendering: optimizeLegibility !important;
-	}
-	/* latin-ext */
-	@font-face {
-		font-family: 'Open Sans';
-		font-style: italic;
-		font-weight: 400;
-		src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2) format('woff2');
-		unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-		text-rendering: optimizeLegibility !important;
-	}
+    /* Open Sans */
+    /* latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        text-rendering: optimizeLegibility !important;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        text-rendering: optimizeLegibility !important;
+    }
+    /* Open Sans Italic */
+    /* latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        text-rendering: optimizeLegibility !important;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        text-rendering: optimizeLegibility !important;
+    }
 
-	body, input, select, textarea, button {
-		font-family: 'Open Sans' !important;
-	}
-	.markdown-body {
-		font-family: 'Open Sans';
-	}
-	.new-user-avatar-cta {
-		display: none;
-	}
+    body, input, select, textarea, button {
+        font-family: 'Open Sans' !important;
+    }
+    .markdown-body {
+        font-family: 'Open Sans';
+    }
+    .new-user-avatar-cta {
+        display: none;
+    }
 
-	*:not(.mail-status) {
-	    border-radius: 0px !important;
-	}
-	.button, .button:hover,
-	.primary, .primary:hover,
-	.minibutton, .minibutton:hover,
-	.button.primary, .button.primary:hover,
-	.minibutton.primary, .minibutton.primary:hover,
-	.button.danger:hover, .minibutton.danger:hover {
-	    background-image: none;
-	}
+    *:not(.mail-status) {
+        border-radius: 0px !important;
+    }
+    .button, .button:hover,
+    .primary, .primary:hover,
+    .minibutton, .minibutton:hover,
+    .button.primary, .button.primary:hover,
+    .minibutton.primary, .minibutton.primary:hover,
+    .button.danger:hover, .minibutton.danger:hover {
+        background-image: none;
+    }
 
-	.blob-code {
-		text-rendering: optimizeLegibility !important;
-	}
-	.sunken-menu-item.selected:after {
-		border-radius: 0px;
-	}
+    .sunken-menu-item.selected:after {
+        border-radius: 0px;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
-	.header {
-		position: fixed;
-		transform: translateZ(0);
-		width: 100%;
-		z-index: 10000;
-		top: 0px;
-	}
-	body {
-		padding-top: 50px;
-	}
-	.header-logged-in {
-		background-image: none;
-		background-color: #F5F5F5;
-	}
+    .header {
+        position: fixed;
+        transform: translateZ(0);
+        width: 100%;
+        z-index: 10000;
+        top: 0px;
+    }
+    body {
+        padding-top: 50px;
+    }
+    .header-logged-in {
+        background-image: none;
+        background-color: #F5F5F5;
+    }
 }
