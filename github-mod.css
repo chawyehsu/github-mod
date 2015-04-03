@@ -56,11 +56,26 @@
     .minibutton, .minibutton:hover,
     .button.primary, .button.primary:hover,
     .minibutton.primary, .minibutton.primary:hover,
-    .button.danger:hover, .minibutton.danger:hover {
+    .button.danger:hover, .minibutton.danger:hover,
+    .btn-primary, .btn-primary:hover,
+    .btn, .btn:hover,
+    .btn-danger:disabled, .btn-danger:disabled:hover,
+    .btn-danger.disabled, .btn-danger.disabled:hover,
+    .btn-primary:disabled, .btn-primary:disabled:hover,
+    .btn-primary.disabled, .btn-primary.disabled:hover {
         background-image: none;
     }
 
-    .sunken-menu-item.selected:after {
+    .sunken-menu-group li:after {
+        border-radius: 0px;
+    }
+    h2, .number {
+        font-family: 'Open Sans';
+    }
+    #last_updated {
+        font-family: 'Open Sans';
+    }
+    .btn:after {
         border-radius: 0px;
     }
 }
@@ -78,5 +93,23 @@
     .header-logged-in {
         background-image: none;
         background-color: #F5F5F5;
+    }
+}
+@-moz-document regexp("https?://developer.github.com/.*") {
+    #header-wrapper {
+        position: fixed;
+        transform: translateZ(0);
+        width: 100%;
+        z-index: 10000;
+        top: 0px;
+        background: none;
+        background-color: #F5F5F5;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    body {
+        padding-top: 62px;
+    }
+    .dev-program.feature h1 {
+        width: 650px;
     }
 }
