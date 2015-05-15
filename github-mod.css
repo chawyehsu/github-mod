@@ -48,8 +48,8 @@
         display: none;
     }
 
-    *:not(.mail-status) {
-        border-radius: 0px !important;
+    *:not(.mail-status):not(.discussion-item-icon) {
+        border-radius: 0 !important;
     }
     .button, .button:hover,
     .primary, .primary:hover,
@@ -67,7 +67,7 @@
     }
 
     .sunken-menu-group li:after {
-        border-radius: 0px;
+        border-radius: 0;
     }
     h2, .number {
         font-family: 'Open Sans';
@@ -76,16 +76,36 @@
         font-family: 'Open Sans';
     }
     .btn:after {
-        border-radius: 0px;
+        border-radius: 0;
+    }
+
+    .topsearch {
+        margin-top: 6px;
+    }
+
+    .tooltipped:after {
+        border-radius: 0;
+    }
+
+    .sunken-menu-item.selected:after {
+        border-radius: 0;
+    }
+    .wiki-wrapper .wiki-auxiliary-content {
+        background-image: none;
+    }
+    .site-search .chromeless-input {
+        line-height: 18px;
+    }
+    .btn .octicon {
+        vertical-align: text-bottom;
     }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     .header {
         position: fixed;
-        transform: translateZ(0);
         width: 100%;
         z-index: 10000;
-        top: 0px;
+        top: 0;
     }
     body {
         padding-top: 50px;
@@ -98,10 +118,9 @@
 @-moz-document regexp("https?://developer.github.com/.*") {
     #header-wrapper {
         position: fixed;
-        transform: translateZ(0);
         width: 100%;
         z-index: 10000;
-        top: 0px;
+        top: 0;
         background: none;
         background-color: #F5F5F5;
         border-bottom: 1px solid #E5E5E5;
