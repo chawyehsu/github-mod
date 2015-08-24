@@ -104,6 +104,10 @@
         float: none;
         margin-right: 8px;
     }
+
+    .markdown-body .emoji {
+        vertical-align: text-bottom;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     .header {
