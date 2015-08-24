@@ -99,6 +99,11 @@
     .btn .octicon {
         vertical-align: text-bottom;
     }
+
+    .vcard-detail .octicon {
+        float: none;
+        margin-right: 8px;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     .header {
