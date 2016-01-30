@@ -108,6 +108,21 @@
     .markdown-body .emoji {
         vertical-align: text-bottom;
     }
+
+    .flash {
+        border: none;
+    }
+    .select {
+        box-shadow: none;
+    }
+    .form-control, input[type="text"], input[type="password"],
+    input[type="email"], input[type="number"], input[type="tel"],
+    input[type="url"], select, textarea {
+        box-shadow: none;
+    }
+    .label {
+        box-shadow: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     .header {
