@@ -39,10 +39,10 @@
     }
 
     body, input, select, textarea, button {
-        font-family: 'Open Sans' !important;
+        font-family: 'Open Sans', sans-serif !important;
     }
     .markdown-body {
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
     }
     .new-user-avatar-cta {
         display: none;
@@ -70,10 +70,10 @@
         border-radius: 0;
     }
     h2, .number {
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
     }
     #last_updated {
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
     }
     .btn:after {
         border-radius: 0;
