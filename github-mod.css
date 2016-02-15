@@ -344,12 +344,7 @@
         line-height: 18px;
     }
     .btn .octicon {
-        vertical-align: text-bottom;
-    }
-
-    .vcard-detail .octicon {
-        float: none;
-        margin-right: 8px;
+        vertical-align: sub;
     }
 
     .markdown-body .emoji {
@@ -370,18 +365,36 @@
     .label {
         box-shadow: none;
     }
+
+    .blog-content {
+        font-family: 'Open Sans', sans-serif;
+    }
+    .button.primary:disabled, .button.primary:disabled:hover,
+    .button.primary.disabled, .button.primary.disabled:hover,
+    .minibutton.primary:disabled, .minibutton.primary:disabled:hover,
+    .minibutton.primary.disabled, .minibutton.primary.disabled:hover {
+        background-image: none;
+        border-color: transparent;
+    }
+    .notification-indicator .mail-status {
+        background-image: none;
+        background-color: #4078c0;
+    }
+    #partial-discussion-sidebar.is-stuck {
+        margin-top: 50px !important;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
-    .header {
+    body:not(.session-authentication) .header {
         position: fixed;
         width: 100%;
         z-index: 90;
         top: 0;
     }
-    body {
+    body:not(.session-authentication) {
         padding-top: 50px;
     }
-    .header-logged-in {
+    body:not(.session-authentication) .header-logged-in {
         background-image: none;
         background-color: #F5F5F5;
     }
