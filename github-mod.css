@@ -383,6 +383,11 @@
     #partial-discussion-sidebar.is-stuck {
         margin-top: 50px !important;
     }
+
+    .btn-secret:disabled, .btn-secret:disabled:hover,
+    .btn-secret.disabled, .btn-secret.disabled:hover {
+        background-image: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     body:not(.session-authentication) .header {
