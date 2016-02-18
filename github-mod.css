@@ -463,5 +463,30 @@
     }
     .markdown-format .alert {
         text-shadow: none;
+        box-shadow: none;
+        background: none;
+        background-color: #d8ebf8;
+    }
+    .markdown-format .alert.tip {
+        background: none;
+        background-color: #d8ebf8;
+    }
+    .markdown-format .alert.note {
+        background: none;
+        background-color: #dbe2d3;
+    }
+    .markdown-format .alert.warning {
+        background: none;
+        background-color: #ffe3c8;
+    }
+    .markdown-format .alert.danger {
+        background: none;
+        background-color: #f8d8d8;
+    }
+    .octicon-comment-discussion {
+        vertical-align: inherit;
+    }
+    .markdown-format pre.command-line {
+        border: none;
     }
 }
