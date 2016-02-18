@@ -388,6 +388,13 @@
     .btn-secret.disabled, .btn-secret.disabled:hover {
         background-image: none;
     }
+    
+    .discussion-item-icon .octicon {
+        vertical-align: sub;
+    }
+    .octicon {
+        vertical-align: sub;
+    }
 }
 @-moz-document regexp("https?://github.com/.*"), regexp("https?://gist.github.com/.*") {
     body:not(.session-authentication) .header {
@@ -397,7 +404,7 @@
         top: 0;
     }
     body:not(.session-authentication) {
-        padding-top: 50px;
+        margin-top: 50px;
     }
     body:not(.session-authentication) .header-logged-in {
         background-image: none;
@@ -408,16 +415,53 @@
     #header-wrapper {
         position: fixed;
         width: 100%;
-        z-index: 10000;
+        z-index: 100;
         top: 0;
         background: none;
         background-color: #F5F5F5;
         border-bottom: 1px solid #E5E5E5;
+        transform: translateZ(0);
     }
     body {
         padding-top: 62px;
     }
     .dev-program.feature h1 {
         width: 650px;
+    }
+    #header .nav {
+        text-shadow: none;
+    }
+}
+@-moz-document regexp("https?://help.github.com/.*") {
+    #header {
+        position: fixed;
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        background-color: #fafafa;
+        top: 0;
+    }
+    body {
+        top: 50px;
+    }
+    .minibutton:hover {
+        background-color: #3072b3;
+    }
+    ul#bootcamp li a h4 {
+        background: none;
+        background-color: #DEE7EC;
+        text-shadow: none;
+    }
+    ul#bootcamp li a:hover h4 {
+        background-color: #AFC5D0;
+    }
+    div.search-form.big button {
+        background-image: none;
+    }
+    div.search-form.small button {
+        background-image: none;
+    }
+    .markdown-format .alert {
+        text-shadow: none;
     }
 }
