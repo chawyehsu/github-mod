@@ -380,7 +380,7 @@
         background-image: none;
         background-color: #4078c0;
     }
-    #partial-discussion-sidebar.is-stuck {
+    .discussion-sidebar.is-stuck {
         margin-top: 50px !important;
     }
 
