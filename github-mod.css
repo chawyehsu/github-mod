@@ -342,6 +342,9 @@
     }
     .site-search .chromeless-input {
         line-height: 18px;
+        border: none;
+        padding: 0;
+        background: none;
     }
     .btn .octicon {
         vertical-align: sub;
@@ -402,7 +405,7 @@
     }
 
 }
-@-moz-document regexp("https?://github[.]com/(?!blog).*"), regexp("https?://gist.github.com/.*") {
+@-moz-document regexp("https?://github.com/(?!blog).*") {
     body:not(.session-authentication) .header {
         position: fixed;
         width: 100%;
@@ -417,7 +420,7 @@
         background-color: #F5F5F5;
     }
 }
-@-moz-document regexp("https?://github[.]com/blog/.*") {
+@-moz-document regexp("https?://github.com/blog/.*") {
     .site-header {
         position: fixed;
         width: 100%;
@@ -447,6 +450,17 @@
     }
     #header .nav {
         text-shadow: none;
+    }
+}
+@-moz-document regexp("https?://gist.github.com/.*") {
+    body:not(.session-authentication) .header {
+        position: fixed;
+        width: 100%;
+        z-index: 90;
+        top: 0;
+    }
+    body:not(.session-authentication) {
+        margin-top: 83px;
     }
 }
 @-moz-document regexp("https?://help.github.com/.*") {
