@@ -399,15 +399,9 @@
         vertical-align: sub;
     }
 
-    .tooltipped-multiline:after {
-        width: auto;
-        word-break: normal;
-    }
-
     g-emoji {
         vertical-align: top;
     }
-
 }
 @-moz-document regexp("https?://github.com/(?!blog).*"), regexp("https?://gist.github.com/.*") {
     body:not(.session-authentication) .header {
