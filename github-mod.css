@@ -384,7 +384,7 @@
         background-color: #4078c0;
     }
     .discussion-sidebar {
-        top: 50px;
+        top: 50px !important;
     }
 
     .btn-secret:disabled, .btn-secret:disabled:hover,
