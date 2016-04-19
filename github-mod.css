@@ -402,8 +402,19 @@
     g-emoji {
         vertical-align: top;
     }
+
+    .discussion-item .label-color {
+        box-shadow: none;
+    }
+    .intgrs-page .main-content {
+        font-family: 'Open Sans', sans-serif;
+    }
+    .table-list-cell-type .octicon {
+        margin-top: 4px;
+    }
 }
-@-moz-document regexp("https?://github.com/(?!blog).*"), regexp("https?://gist.github.com/.*") {
+@-moz-document regexp("https?://github.com/(?!(blog|business|explore|integrations|open-source|personal|pricing|showcases|trending)).*"),
+regexp("https?://gist.github.com/.*") {
     body:not(.session-authentication) .header {
         position: fixed;
         width: 100%;
@@ -418,7 +429,7 @@
         background-color: #F5F5F5;
     }
 }
-@-moz-document regexp("https?://github.com/blog.*") {
+@-moz-document regexp("https?://github.com/(blog|business|explore|integrations|open-source|personal|pricing|showcases|trending).*") {
     .site-header {
         position: fixed;
         width: 100%;
@@ -426,7 +437,7 @@
         z-index: 10;
     }
     div.main-content {
-        padding-top: 74px;
+        padding-top: 73px;
     }
 }
 @-moz-document regexp("https?://developer.github.com/.*") {
