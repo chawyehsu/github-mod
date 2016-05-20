@@ -415,16 +415,16 @@
 }
 @-moz-document regexp("https?://github.com/(?!(blog|business|explore|integrations|open-source|personal|pricing|showcases|trending)).*"),
 regexp("https?://gist.github.com/.*") {
-    body:not(.session-authentication) .header {
+    body:not(.session-authentication):not(.logged-out) .header {
         position: fixed;
         width: 100%;
         z-index: 90;
         top: 0;
     }
-    body:not(.session-authentication) {
+    body:not(.session-authentication):not(.logged-out) {
         margin-top: 50px;
     }
-    body:not(.session-authentication) .header-logged-in {
+    body:not(.session-authentication):not(.logged-out) .header-logged-in {
         background-image: none;
         background-color: #F5F5F5;
     }
@@ -462,13 +462,13 @@ regexp("https?://gist.github.com/.*") {
     }
 }
 /*@-moz-document regexp("https?://gist.github.com/.*") {
-    body:not(.session-authentication) .header {
+    body:not(.session-authentication):not(.logged-out) .header {
         position: fixed;
         width: 100%;
         z-index: 90;
         top: 0;
     }
-    body:not(.session-authentication) {
+    body:not(.session-authentication):not(.logged-out) {
         margin-top: 83px;
     }
 }*/
