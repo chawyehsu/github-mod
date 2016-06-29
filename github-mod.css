@@ -246,6 +246,9 @@
     .site-subheader-business {
         padding: 25px 0;
     }
+    body.menu-active .modal-backdrop {
+        z-index: 5;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
