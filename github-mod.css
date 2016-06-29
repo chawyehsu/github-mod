@@ -249,6 +249,9 @@
     body.menu-active .modal-backdrop {
         z-index: 5;
     }
+    .repohead.experiment-repo-nav {
+        background-color: inherit;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
