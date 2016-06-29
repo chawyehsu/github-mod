@@ -232,32 +232,32 @@
     .table-list-cell-type .octicon {
         margin-top: 4px;
     }
-}
-@-moz-document regexp("https?://github.com/(?!(blog|business|explore|integrations|open-source|personal|pricing|showcases|trending)).*"),
-regexp("https?://gist.github.com/.*") {
-    body:not(.session-authentication):not(.logged-out) .header {
+
+    body:not(.session-authentication) > div.header,
+    body:not(.session-authentication) > header.site-header {
         position: fixed;
         width: 100%;
-        z-index: 90;
+        z-index: 10;
         top: 0;
     }
-    body:not(.session-authentication):not(.logged-out) {
-        margin-top: 50px;
+    .gist-snippet .link-overlay {
+        z-index: 5;
     }
-    body:not(.session-authentication):not(.logged-out) .header-logged-in {
-        background-image: none;
-        background-color: #F5F5F5;
+    .site-subheader-business {
+        padding: 25px 0;
     }
 }
-@-moz-document regexp("https?://github.com/(blog|business|explore|integrations|open-source|personal|pricing|showcases|trending).*") {
-    .site-header {
-        position: fixed;
-        width: 100%;
-        box-shadow: none;
-        z-index: 10;
+@-moz-document regexp("https?://github.com/.*") {
+    body:not(.session-authentication) {
+        margin-top: 73px;
     }
-    div.main-content {
-        padding-top: 73px;
+}
+@-moz-document regexp("https?://gist.github.com/.*") {
+    body.logged-in:not(.session-authentication) {
+        margin-top: 48px;
+    }
+    body.logged-out:not(.session-authentication) {
+        margin-top: 58px;
     }
 }
 @-moz-document regexp("https?://developer.github.com/.*") {
@@ -281,17 +281,6 @@ regexp("https?://gist.github.com/.*") {
         text-shadow: none;
     }
 }
-/*@-moz-document regexp("https?://gist.github.com/.*") {
-    body:not(.session-authentication):not(.logged-out) .header {
-        position: fixed;
-        width: 100%;
-        z-index: 90;
-        top: 0;
-    }
-    body:not(.session-authentication):not(.logged-out) {
-        margin-top: 83px;
-    }
-}*/
 @-moz-document regexp("https?://help.github.com/.*") {
     #header {
         position: fixed;
