@@ -193,6 +193,7 @@
     }
     .discussion-sidebar {
         top: 50px !important;
+        z-index: 5;
     }
 
     .btn-secret:disabled, .btn-secret:disabled:hover,
@@ -239,6 +240,10 @@
     }
     .repohead.experiment-repo-nav {
         background-color: inherit;
+    }
+
+    .pagehead ul.pagehead-actions {
+        z-index: 5;
     }
 }
 @-moz-document regexp("https?://github.com/.*") {
