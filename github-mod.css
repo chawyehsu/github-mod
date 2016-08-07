@@ -235,6 +235,9 @@
     .orghead {
         background-color: inherit;
     }
+    .select-menu-modal-holder {
+        z-index: 5;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
