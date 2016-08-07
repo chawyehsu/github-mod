@@ -102,7 +102,6 @@
     .new-user-avatar-cta {
         display: none;
     }
-
     *:not(.mail-status):not(.discussion-item-icon) {
         border-radius: 0 !important;
     }
@@ -120,7 +119,6 @@
     .btn-primary.disabled, .btn-primary.disabled:hover {
         background-image: none;
     }
-
     .sunken-menu-group li:after {
         border-radius: 0;
     }
@@ -133,7 +131,6 @@
     .btn:after {
         border-radius: 0;
     }
-
     .topsearch {
         margin-top: 6px;
     }
@@ -141,7 +138,6 @@
     .tooltipped:after {
         border-radius: 0;
     }
-
     .sunken-menu-item.selected:after {
         border-radius: 0;
     }
@@ -157,11 +153,9 @@
     .btn .octicon {
         vertical-align: sub;
     }
-
     .markdown-body .emoji {
         vertical-align: text-bottom;
     }
-
     .flash {
         border: none;
     }
@@ -176,7 +170,6 @@
     .label {
         box-shadow: none;
     }
-
     .blog-content {
         font-family: 'Open Sans', sans-serif;
     }
@@ -195,23 +188,19 @@
         top: 50px !important;
         z-index: 5;
     }
-
     .btn-secret:disabled, .btn-secret:disabled:hover,
     .btn-secret.disabled, .btn-secret.disabled:hover {
         background-image: none;
     }
-    
     .discussion-item-icon .octicon {
         vertical-align: sub;
     }
     .octicon {
         vertical-align: sub;
     }
-
     g-emoji {
         vertical-align: top;
     }
-
     .discussion-item .label-color {
         box-shadow: none;
     }
@@ -221,7 +210,6 @@
     .table-list-cell-type .octicon {
         margin-top: 4px;
     }
-
     body:not(.session-authentication) > div.header,
     body:not(.session-authentication) > header.site-header {
         position: fixed;
@@ -241,7 +229,6 @@
     .repohead.experiment-repo-nav {
         background-color: inherit;
     }
-
     .pagehead ul.pagehead-actions {
         z-index: 5;
     }
