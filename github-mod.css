@@ -245,6 +245,9 @@
     .pagehead ul.pagehead-actions {
         z-index: 5;
     }
+    .orghead {
+        background-color: inherit;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
