@@ -224,7 +224,7 @@
         padding: 25px 0;
     }
     body.menu-active .modal-backdrop {
-        z-index: 5;
+        z-index: 4;
     }
     .repohead.experiment-repo-nav {
         background-color: inherit;
