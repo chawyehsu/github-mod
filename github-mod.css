@@ -238,6 +238,9 @@
     .select-menu-modal-holder {
         z-index: 5;
     }
+    .pr-toolbar, .pr-toolbar.is-stuck::after {
+        top: 49px;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
