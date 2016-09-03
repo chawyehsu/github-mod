@@ -228,6 +228,7 @@
     }
     .repohead.experiment-repo-nav {
         background-color: inherit;
+        padding-top: 0;
     }
     .pagehead ul.pagehead-actions {
         z-index: 5;
