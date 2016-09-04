@@ -246,6 +246,9 @@
     body:not(.session-authentication) {
         margin-top: 73px;
     }
+    .repohead.experiment-repo-nav {
+        padding-top: 0;
+    }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
     body.logged-in:not(.session-authentication) {
