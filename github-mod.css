@@ -241,6 +241,12 @@
     .pr-toolbar, .pr-toolbar.is-stuck::after {
         top: 49px;
     }
+    .pr-toolbar {
+        z-index: 5;
+    }
+    .muted-link:focus {
+        text-decoration: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
