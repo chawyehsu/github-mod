@@ -102,7 +102,7 @@
     .new-user-avatar-cta {
         display: none;
     }
-    *:not(.mail-status):not(.discussion-item-icon) {
+    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color) {
         border-radius: 0 !important;
     }
     .button, .button:hover,
@@ -246,6 +246,15 @@
     }
     .muted-link:focus {
         text-decoration: none;
+    }
+    .user-profile-sticky-bar, .user-profile-sticky-bar.is-stuck::after {
+        top: 49px;
+    }
+    .user-profile-nav {
+        top: 49px !important;
+    }
+    .user-profile-sticky-bar, .user-profile-nav.is-stuck {
+        z-index: 5;
     }
 }
 @-moz-document regexp("https?://github.com/.*") {
