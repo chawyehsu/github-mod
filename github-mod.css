@@ -256,6 +256,9 @@
     .user-profile-sticky-bar, .user-profile-nav.is-stuck {
         z-index: 5;
     }
+    .add-line-comment {
+        z-index: 4;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
