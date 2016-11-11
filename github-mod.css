@@ -72,7 +72,7 @@
     .new-user-avatar-cta {
         display: none;
     }
-    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color) {
+    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color):not(.branch-action-item-icon) {
         border-radius: 0 !important;
     }
     .button, .button:hover,
