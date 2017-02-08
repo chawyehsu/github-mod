@@ -72,6 +72,7 @@
         background-image: none;
     }
     g-emoji {
+        display: inline-block;
         vertical-align: top;
     }
     .discussion-item .label-color {
