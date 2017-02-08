@@ -1,4 +1,5 @@
 @-moz-document domain(github.com) {
+    /*[[font-select]]*/
     .new-user-avatar-cta {
         display: none;
     }
