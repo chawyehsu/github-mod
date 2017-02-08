@@ -26,9 +26,6 @@
     .btn:after {
         border-radius: 0;
     }
-    .topsearch {
-        margin-top: 6px;
-    }
 
     .tooltipped:after {
         border-radius: 0;
@@ -38,15 +35,6 @@
     }
     .wiki-wrapper .wiki-auxiliary-content {
         background-image: none;
-    }
-    .site-search .chromeless-input {
-        line-height: 18px;
-        border: none;
-        padding: 0;
-        background: none;
-    }
-    .btn .octicon {
-        vertical-align: sub;
     }
     .markdown-body .emoji {
         vertical-align: text-bottom;
@@ -84,20 +72,11 @@
     .btn-secret.disabled, .btn-secret.disabled:hover {
         background-image: none;
     }
-    .discussion-item-icon .octicon {
-        vertical-align: sub;
-    }
-    .octicon {
-        vertical-align: sub;
-    }
     g-emoji {
         vertical-align: top;
     }
     .discussion-item .label-color {
         box-shadow: none;
-    }
-    .table-list-cell-type .octicon {
-        margin-top: 4px;
     }
     body:not(.session-authentication) > div.header,
     body:not(.session-authentication) > header.site-header {
