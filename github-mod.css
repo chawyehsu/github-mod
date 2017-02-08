@@ -229,6 +229,9 @@
     .add-line-comment {
         z-index: 4;
     }
+    .bot-identifier {
+        font-size: 11px;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
