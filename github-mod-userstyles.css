@@ -133,6 +133,9 @@
     .repohead.experiment-repo-nav {
         padding-top: 0;
     }
+    .flash-notice {
+        margin-top: -24px;
+    }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
     body.logged-in:not(.session-authentication) {
