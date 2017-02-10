@@ -125,6 +125,9 @@
     .add-line-comment {
         z-index: 4;
     }
+    .js-site-search.scoped-search .awesome-autocomplete .twitter-typeahead {
+        width: 100%;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
