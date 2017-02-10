@@ -225,4 +225,14 @@
     .markdown-format pre.command-line {
         border: none;
     }
+    @-moz-document regexp("https?://githubengineering.com/(?!atom.xml).*") {
+        header {
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+        }
+        body > section:first-of-type {
+            padding-top: 43px;
+        }
+    }
 }
