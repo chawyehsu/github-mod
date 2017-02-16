@@ -61,8 +61,9 @@
         background-color: #4078c0;
     }
     .discussion-sidebar {
-        top: 50px !important;
+        top: 54px !important;
         z-index: 5;
+        position: sticky;
     }
     .btn-secret:disabled, .btn-secret:disabled:hover,
     .btn-secret.disabled, .btn-secret.disabled:hover {
@@ -75,8 +76,8 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body:not(.session-authentication) > div.header,
-    body:not(.session-authentication) > header.site-header {
+    body:not(.session-authentication) > .js-header-wrapper > div.header,
+    body:not(.session-authentication) > .js-header-wrapper > header.site-header {
         position: fixed;
         width: 100%;
         z-index: 10;
@@ -104,7 +105,7 @@
         z-index: 5;
     }
     .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 49px;
+        top: 54px;
     }
     .pr-toolbar {
         z-index: 5;
@@ -113,10 +114,10 @@
         text-decoration: none;
     }
     .user-profile-sticky-bar, .user-profile-sticky-bar.is-stuck::after {
-        top: 49px;
+        top: 54px;
     }
     .user-profile-nav {
-        top: 49px !important;
+        top: 54px !important;
     }
     .user-profile-sticky-bar, .user-profile-nav.is-stuck {
         z-index: 5;
@@ -140,32 +141,19 @@
     }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
-    body.logged-in:not(.session-authentication) {
-        margin-top: 48px;
-    }
-    body.logged-out:not(.session-authentication) {
-        margin-top: 58px;
+    body:not(.session-authentication) {
+        margin-top: 54px;
     }
 }
 @-moz-document regexp("https?://developer.github.com/.*") {
-    #header-wrapper {
+    header.site-header {
         position: fixed;
         width: 100%;
-        z-index: 100;
+        z-index: 10;
         top: 0;
-        background: none;
-        background-color: #F5F5F5;
-        border-bottom: 1px solid #E5E5E5;
-        transform: translateZ(0);
     }
     body {
         padding-top: 85px;
-    }
-    .dev-program.feature h1 {
-        width: 650px;
-    }
-    #header .nav {
-        text-shadow: none;
     }
 }
 @-moz-document regexp("https?://help.github.com/.*") {
