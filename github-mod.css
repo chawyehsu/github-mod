@@ -137,7 +137,8 @@
         padding-top: 0;
     }
     .flash-notice {
-        margin-top: -24px;
+        margin-top: -19px;
+        margin-bottom: 20px;
     }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
