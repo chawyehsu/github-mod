@@ -129,6 +129,10 @@
     .js-site-search.scoped-search .awesome-autocomplete .twitter-typeahead {
         width: 100%;
     }
+    .pr-toolbar.is-stuck + .pr-toolbar-shadow {
+        top: 114px;
+        z-index: 4;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
