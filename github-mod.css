@@ -133,6 +133,9 @@
         top: 114px;
         z-index: 4;
     }
+    .octicon-circle-slash, .octicon-primitive-dot {
+        margin: 6px auto;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication) {
