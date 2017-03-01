@@ -139,6 +139,9 @@
     .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
         box-shadow: none;
     }
+    .upload-enabled.focused {
+        box-shadow: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
