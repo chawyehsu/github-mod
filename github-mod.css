@@ -138,8 +138,11 @@
     }
 }
 @-moz-document regexp("https?://github.com/.*") {
-    body:not(.session-authentication) {
-        margin-top: 73px;
+    body:not(.session-authentication):not(.site-header-dark) {
+        margin-top: 71px;
+    }
+    body.site-header-dark {
+        margin-top: 70px;
     }
     .repohead.experiment-repo-nav {
         padding-top: 0;
