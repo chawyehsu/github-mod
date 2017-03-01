@@ -133,7 +133,7 @@
         top: 114px;
         z-index: 4;
     }
-    .octicon-circle-slash, .octicon-primitive-dot {
+    .discussion-item-icon .octicon {
         margin: 6px auto;
     }
     .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
