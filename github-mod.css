@@ -136,6 +136,9 @@
     .octicon-circle-slash, .octicon-primitive-dot {
         margin: 6px auto;
     }
+    .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+        box-shadow: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
