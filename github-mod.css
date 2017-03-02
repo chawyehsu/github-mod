@@ -71,10 +71,6 @@
     .btn-secret.disabled, .btn-secret.disabled:hover {
         background-image: none;
     }
-    g-emoji {
-        display: inline-block;
-        vertical-align: top;
-    }
     .discussion-item .label-color {
         box-shadow: none;
     }
