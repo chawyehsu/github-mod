@@ -4,7 +4,7 @@
         display: none;
     }
     /* stylelint-disable max-line-length */
-    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color):not(.branch-action-item-icon) {
+    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color):not(.branch-action-item-icon):not(.color-block):not(.repo-language-color) {
         /* stylelint-enable */
         border-radius: 0 !important;
     }
