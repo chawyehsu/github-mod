@@ -1,9 +1,11 @@
-@-moz-document domain(github.com) {
-    /*[[font-select]]*/
+@-moz-document domain("github.com") {
+    /* [[font-select]] */
     .new-user-avatar-cta {
         display: none;
     }
+    /* stylelint-disable max-line-length */
     *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color):not(.branch-action-item-icon) {
+        /* stylelint-enable */
         border-radius: 0 !important;
     }
     .button, .button:hover,
@@ -20,17 +22,16 @@
     .btn-primary.disabled, .btn-primary.disabled:hover {
         background-image: none;
     }
-    .sunken-menu-group li:after {
+    .sunken-menu-group li::after {
         border-radius: 0;
     }
-    .btn:after {
+    .btn::after {
         border-radius: 0;
     }
-
-    .tooltipped:after {
+    .tooltipped::after {
         border-radius: 0;
     }
-    .sunken-menu-item.selected:after {
+    .sunken-menu-item.selected::after {
         border-radius: 0;
     }
     .wiki-wrapper .wiki-auxiliary-content {
@@ -59,7 +60,7 @@
     }
     .notification-indicator .mail-status {
         background-image: none;
-        background-color: #0366d6;
+        background-color: #0366D6;
     }
     .discussion-sidebar {
         top: 54px !important;
@@ -136,7 +137,8 @@
     .discussion-item-icon .octicon {
         margin: 6px auto;
     }
-    .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+    .form-control.focus, .form-control:focus, .form-select.focus,
+    .form-select:focus {
         box-shadow: none;
     }
     .upload-enabled.focused {
@@ -180,14 +182,14 @@
         width: 100%;
         background: none;
         box-shadow: none;
-        background-color: #fafafa;
+        background-color: #FAFAFA;
         top: 0;
     }
     body {
         top: 50px;
     }
     .minibutton:hover {
-        background-color: #3072b3;
+        background-color: #3072B3;
     }
     ul#bootcamp li a h4 {
         background: none;
@@ -207,23 +209,23 @@
         text-shadow: none;
         box-shadow: none;
         background: none;
-        background-color: #d8ebf8;
+        background-color: #D8EBF8;
     }
     .markdown-format .alert.tip {
         background: none;
-        background-color: #d8ebf8;
+        background-color: #D8EBF8;
     }
     .markdown-format .alert.note {
         background: none;
-        background-color: #dbe2d3;
+        background-color: #DBE2D3;
     }
     .markdown-format .alert.warning {
         background: none;
-        background-color: #ffe3c8;
+        background-color: #FFE3C8;
     }
     .markdown-format .alert.danger {
         background: none;
-        background-color: #f8d8d8;
+        background-color: #F8D8D8;
     }
     .octicon-comment-discussion {
         vertical-align: inherit;

@@ -1,4 +1,3 @@
-# Commented rules below don't work properly with indentation
 rules:
   at-rule-blacklist: import
   at-rule-empty-line-before: never
@@ -6,23 +5,19 @@ rules:
   at-rule-name-space-after: always
   at-rule-no-unknown:
     - true
-    - ignoreAtRules:
-      - -moz-document
+    - ignoreAtRules: -moz-document
   at-rule-no-vendor-prefix: true
   at-rule-semicolon-newline-after: always
-  # Not implemented yet
+  # Not released yet
   #at-rule-semicolon-space-before: never
   block-closing-brace-empty-line-before: never
   block-closing-brace-newline-after: always
   block-closing-brace-newline-before: always
-  #block-closing-brace-space-after: never
-  #block-closing-brace-space-before: never
   block-no-empty: true
   block-opening-brace-newline-after: always
   block-opening-brace-newline-before:
     - never-single-line
     - never-multi-line
-  #block-opening-brace-space-after: never
   block-opening-brace-space-before: always
   color-hex-case: upper
   color-hex-length: short
@@ -37,7 +32,6 @@ rules:
   declaration-block-no-shorthand-property-overrides: true
   declaration-block-semicolon-newline-after: always
   declaration-block-semicolon-newline-before: never-multi-line
-  #declaration-block-semicolon-space-after: never
   declaration-block-semicolon-space-before: never
   declaration-block-trailing-semicolon: always
   declaration-colon-space-after: always
@@ -47,8 +41,7 @@ rules:
   font-family-no-duplicate-names: true
   font-weight-notation:
     - numeric
-    - ignore:
-      - relative
+    - ignore: relative
   function-calc-no-unspaced-operator: true
   function-comma-newline-after: never-multi-line
   function-comma-newline-before: never-multi-line
@@ -65,7 +58,7 @@ rules:
   keyframe-declaration-no-important: true
   length-zero-no-unit: true
   max-empty-lines: 0
-  max-line-length: 80
+  max-line-length: 100
   media-feature-colon-space-after: always
   media-feature-colon-space-before: never
   media-feature-name-case: lower
@@ -101,7 +94,6 @@ rules:
   selector-combinator-space-after: always
   selector-combinator-space-before: always
   selector-descendant-combinator-no-non-space: true
-  #selector-list-comma-newline-after: always-multi-line
   selector-list-comma-newline-before: never-multi-line
   selector-list-comma-space-after: always-single-line
   selector-list-comma-space-before: never
@@ -117,17 +109,17 @@ rules:
   selector-type-case: lower
   selector-type-no-unknown:
     - true
-    - ignoreTypes:
-      - g-emoji
+    - ignoreTypes: g-emoji
   shorthand-property-no-redundant-values: true
   string-no-newline: true
   string-quotes: double
   unit-case: lower
   unit-no-unknown: true
-  value-keyword-case: lower
-  value-list-comma-newline-after: never-multi-line
+  value-keyword-case:
+    - lower
+    - ignoreKeywords: /^U\+[A-Z0-9-?]+$/
   value-list-comma-newline-before: never-multi-line
-  value-list-comma-space-after: always
+  value-list-comma-space-after: always-single-line
   value-list-comma-space-before: never
   value-list-max-empty-lines: 0
   value-no-vendor-prefix: true
