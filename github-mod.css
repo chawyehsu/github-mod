@@ -1,5 +1,5 @@
 @-moz-document domain("github.com") {
-    /* [[font-select]] */
+    /*[[font-select]]*/ /* stylelint-disable-line comment-whitespace-inside */
     .new-user-avatar-cta {
         display: none;
     }
