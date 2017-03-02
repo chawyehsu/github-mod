@@ -144,6 +144,9 @@
     .upload-enabled.focused {
         box-shadow: none;
     }
+    :focus {
+        outline: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
