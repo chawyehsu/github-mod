@@ -143,6 +143,9 @@
     :focus {
         outline: none;
     }
+    .btn:focus, .btn.focus {
+        box-shadow: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
