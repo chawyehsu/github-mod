@@ -157,7 +157,7 @@
     .repohead.experiment-repo-nav {
         padding-top: 0;
     }
-    .flash {
+    #js-flash-container .flash {
         margin-top: -19px;
         margin-bottom: 20px;
     }
