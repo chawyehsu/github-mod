@@ -146,6 +146,12 @@
     .btn:focus, .btn.focus {
         box-shadow: none;
     }
+    .color-editor-bg {
+        z-index: 5;
+    }
+    .dropdown-menu {
+        z-index: 9;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
