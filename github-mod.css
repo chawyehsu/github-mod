@@ -155,6 +155,9 @@
     .bulk-actions-header {
         z-index: 9;
     }
+    .select-menu-item.navigation-focus .select-menu-item-heading {
+        color: #FFF;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body:not(.session-authentication):not(.site-header-dark) {
