@@ -74,8 +74,8 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body:not(.session-authentication) > .js-header-wrapper > div.header,
-    body:not(.session-authentication) > .js-header-wrapper > header.site-header {
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > div.header,
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > header.site-header {
         position: fixed;
         width: 100%;
         z-index: 10;
@@ -90,9 +90,6 @@
     body.menu-active .modal-backdrop {
         z-index: 4;
     }
-    .repohead.experiment-repo-nav {
-        background-color: inherit;
-    }
     .pagehead ul.pagehead-actions {
         z-index: 5;
     }
@@ -102,7 +99,7 @@
     .select-menu-modal-holder {
         z-index: 5;
     }
-    .pr-toolbar, .pr-toolbar.is-stuck::after {
+    body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
         top: 54px;
     }
     .pr-toolbar {
@@ -126,7 +123,7 @@
     .js-site-search.scoped-search .awesome-autocomplete .twitter-typeahead {
         width: 100%;
     }
-    .pr-toolbar.is-stuck + .pr-toolbar-shadow {
+    body.logged-in .pr-toolbar.is-stuck + .pr-toolbar-shadow {
         top: 114px;
         z-index: 4;
     }
@@ -160,22 +157,22 @@
     }
 }
 @-moz-document regexp("https?://github.com/.*") {
-    body:not(.session-authentication):not(.site-header-dark) {
-        margin-top: 71px;
+    body.logged-in:not(.session-authentication):not(.page-responsive):not(.page-profile) {
+        margin-top: 54px;
     }
-    body.site-header-dark {
-        margin-top: 70px;
+    body.logged-in.page-profile {
+        margin-top: 78px;
     }
-    .repohead.experiment-repo-nav {
-        padding-top: 0;
+    body.logged-in .repohead.experiment-repo-nav {
+        padding-top: 20px;
     }
-    #js-flash-container .flash {
-        margin-top: -19px;
+    body.logged-in #js-flash-container .flash {
+        margin-top: -23px;
         margin-bottom: 20px;
     }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
-    body:not(.session-authentication) {
+    body.logged-in:not(.session-authentication) {
         margin-top: 54px;
     }
 }
