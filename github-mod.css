@@ -155,6 +155,9 @@
     .select-menu-item.navigation-focus .select-menu-item-heading {
         color: #FFF;
     }
+    .signup-prompt-bg {
+        display: none;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body.logged-in:not(.session-authentication):not(.page-responsive):not(.page-profile) {
