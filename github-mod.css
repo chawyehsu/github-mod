@@ -74,8 +74,7 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > div.header,
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > header.site-header {
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
         position: fixed;
         width: 100%;
         z-index: 10;
@@ -160,13 +159,13 @@
     }
 }
 @-moz-document regexp("https?://github.com/.*") {
-    body.logged-in:not(.session-authentication):not(.page-responsive):not(.page-profile) {
+    body.logged-in:not(.session-authentication):not(.page-profile) {
         margin-top: 54px;
     }
     body.logged-in.page-profile {
         margin-top: 78px;
     }
-    body.logged-in .repohead.experiment-repo-nav {
+    body.logged-in .repohead {
         padding-top: 20px;
     }
     body.logged-in.page-profile #js-flash-container .flash {
