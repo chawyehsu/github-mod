@@ -169,9 +169,8 @@
     body.logged-in .repohead.experiment-repo-nav {
         padding-top: 20px;
     }
-    body.logged-in #js-flash-container .flash {
+    body.logged-in.page-profile #js-flash-container .flash {
         margin-top: -23px;
-        margin-bottom: 20px;
     }
 }
 @-moz-document regexp("https?://gist.github.com/.*") {
