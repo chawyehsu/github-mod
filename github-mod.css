@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         Github Mod
+@namespace    https://github.com/synthtech
+@version      1.0.0
+@description  A flat userstyle for GitHub
+@author       synthtech (https://github.com/synthtech)
+@homepageURL  https://github.com/synthtech/github-mod
+@supportURL   https://github.com/synthtech/github-mod/issues
+@license      CC0-1.0
+==/UserStyle== */
+
 @-moz-document domain("github.com") {
     /*[[font-select]]*/ /* stylelint-disable-line comment-whitespace-inside */
     .new-user-avatar-cta {
