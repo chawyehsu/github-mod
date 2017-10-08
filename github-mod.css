@@ -157,6 +157,9 @@
     .signup-prompt-bg {
         display: none;
     }
+    .contributions-setting .dropdown-menu {
+        z-index: 4;
+    }
 }
 @-moz-document regexp("https?://github.com/.*") {
     body.logged-in:not(.session-authentication):not(.page-profile) {
