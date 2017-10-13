@@ -266,7 +266,7 @@
         z-index: 5;
     }
 }
-@-moz-document regexp("https?://github.com/.*") {
+@-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-profile) {
         margin-top: 54px;
     }
@@ -280,12 +280,12 @@
         margin-top: -23px;
     }
 }
-@-moz-document regexp("https?://gist.github.com/.*") {
+@-moz-document regexp("^https?:\/\/gist\.github\.com\/.*$") {
     body.logged-in:not(.session-authentication) {
         margin-top: 54px;
     }
 }
-@-moz-document regexp("https?://developer.github.com/.*") {
+@-moz-document regexp("^https?:\/\/developer\.github\.com\/.*$") {
     header.site-header {
         position: fixed;
         width: 100%;
@@ -296,7 +296,7 @@
         padding-top: 85px;
     }
 }
-@-moz-document regexp("https?://help.github.com/.*") {
+@-moz-document regexp("^https?:\/\/help\.github\.com\/.*$") {
     #header {
         position: fixed;
         width: 100%;
@@ -354,7 +354,7 @@
         border: none;
     }
 }
-@-moz-document regexp("https?://githubengineering.com/(?!atom.xml).*") {
+@-moz-document regexp("^https?:\/\/githubengineering\.com\/(?!atom\.xml).*$") {
     header {
         position: fixed;
         width: 100%;
