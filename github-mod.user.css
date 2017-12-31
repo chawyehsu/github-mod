@@ -268,6 +268,9 @@
     .contributions-setting .dropdown-menu {
         z-index: 5;
     }
+    .issues-listing > .js-notice {
+        display: none;
+    }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-profile) {
