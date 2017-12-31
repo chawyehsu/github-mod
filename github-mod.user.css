@@ -16,7 +16,8 @@
             font-style: italic;
             font-weight: 400;
             src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/xjAJXh38I15wypJXxuGMBiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
+                U+A720-A7FF;
         }
         /* latin *\/
         @font-face {
@@ -24,7 +25,8 @@
             font-style: italic;
             font-weight: 400;
             src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
         }
         /* latin-ext *\/
         @font-face {
@@ -32,7 +34,8 @@
             font-style: italic;
             font-weight: 600;
             src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/PRmiXeptR36kaC0GEAetxnywqdtBbUHn3VPgzuFrCy8.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
+                U+A720-A7FF;
         }
         /* latin *\/
         @font-face {
@@ -40,7 +43,8 @@
             font-style: italic;
             font-weight: 600;
             src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/PRmiXeptR36kaC0GEAetxl2umOyRU7PgRiv8DXcgJjk.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
         }
         /* latin-ext *\/
         @font-face {
@@ -48,7 +52,8 @@
             font-style: normal;
             font-weight: 400;
             src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
+                U+A720-A7FF;
         }
         /* latin *\/
         @font-face {
@@ -56,7 +61,8 @@
             font-style: normal;
             font-weight: 400;
             src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
         }
         /* latin-ext *\/
         @font-face {
@@ -64,7 +70,8 @@
             font-style: normal;
             font-weight: 600;
             src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
+                U+A720-A7FF;
         }
         /* latin *\/
         @font-face {
@@ -72,7 +79,8 @@
             font-style: normal;
             font-weight: 600;
             src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
         }
         body, input, select, textarea, button {
             font-family: "Open Sans", sans-serif !important;
@@ -98,7 +106,6 @@
     `
 }
 ==/UserStyle== */
-
 @-moz-document domain("github.com") {
     /*[[font-select]]*/ /* stylelint-disable-line comment-whitespace-inside */
     .new-user-avatar-cta {
@@ -199,11 +206,11 @@
     .select-menu-modal-holder {
         z-index: 5;
     }
-    body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 54px;
-    }
     .pr-toolbar {
         z-index: 5;
+    }
+    body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
+        top: 54px;
     }
     .muted-link:focus {
         text-decoration: none;
