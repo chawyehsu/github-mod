@@ -271,6 +271,9 @@
     .issues-listing > .js-notice {
         display: none;
     }
+    #js-pjax-container > .container.mt-4 {
+        padding-top: 24px;
+    }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-profile) {
