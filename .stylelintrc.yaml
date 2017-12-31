@@ -8,16 +8,18 @@ rules:
     - ignoreAtRules: -moz-document
   at-rule-no-vendor-prefix: true
   at-rule-semicolon-newline-after: always
-  # Not released yet
-  #at-rule-semicolon-space-before: never
+  at-rule-semicolon-space-before: never
   block-closing-brace-empty-line-before: never
   block-closing-brace-newline-after: always
   block-closing-brace-newline-before: always
+  block-closing-brace-space-after: always-single-line
+  block-closing-brace-space-before: always
   block-no-empty: true
   block-opening-brace-newline-after: always
   block-opening-brace-newline-before:
     - never-single-line
     - never-multi-line
+  block-opening-brace-space-after: always
   block-opening-brace-space-before: always
   color-hex-case: upper
   color-hex-length: short
@@ -25,6 +27,7 @@ rules:
   comment-empty-line-before: never
   comment-no-empty: true
   comment-whitespace-inside: always
+  custom-property-empty-line-before: never
   declaration-bang-space-after: never
   declaration-bang-space-before: always
   declaration-block-no-duplicate-properties: true
@@ -32,13 +35,16 @@ rules:
   declaration-block-no-shorthand-property-overrides: true
   declaration-block-semicolon-newline-after: always
   declaration-block-semicolon-newline-before: never-multi-line
+  declaration-block-semicolon-space-after: always-single-line
   declaration-block-semicolon-space-before: never
   declaration-block-trailing-semicolon: always
+  declaration-colon-newline-after: always-multi-line
   declaration-colon-space-after: always
   declaration-colon-space-before: never
   declaration-empty-line-before: never
   font-family-name-quotes: always-unless-keyword
   font-family-no-duplicate-names: true
+  font-family-no-missing-generic-family-keyword: true
   font-weight-notation:
     - numeric
     - ignore: relative
@@ -52,6 +58,7 @@ rules:
   function-name-case: lower
   function-parentheses-newline-inside: never-multi-line
   function-parentheses-space-inside: never
+  function-url-no-scheme-relative: true
   function-url-quotes: always
   function-whitespace-after: always
   indentation: 4
@@ -72,6 +79,7 @@ rules:
   media-query-list-comma-space-after: always-single-line
   media-query-list-comma-space-before: never
   no-descending-specificity: true
+  no-duplicate-at-import-rules: true
   no-duplicate-selectors: true
   no-empty-source: true
   no-eol-whitespace: true
@@ -113,11 +121,13 @@ rules:
   shorthand-property-no-redundant-values: true
   string-no-newline: true
   string-quotes: double
+  time-min-milliseconds: 100
   unit-case: lower
   unit-no-unknown: true
   value-keyword-case:
     - lower
     - ignoreKeywords: /^U\+[A-Z0-9-?]+$/
+  value-list-comma-newline-after: never-multi-line
   value-list-comma-newline-before: never-multi-line
   value-list-comma-space-after: always-single-line
   value-list-comma-space-before: never
