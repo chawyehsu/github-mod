@@ -253,9 +253,6 @@
     .color-editor-bg {
         z-index: 5;
     }
-    .dropdown-menu {
-        z-index: 9;
-    }
     .bulk-actions-header {
         z-index: 9;
     }
