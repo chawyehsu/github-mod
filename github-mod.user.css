@@ -145,7 +145,7 @@
     .wiki-wrapper .wiki-auxiliary-content {
         background-image: none;
     }
-    .flash {
+    .flash:not(.Box-body) {
         border: none;
     }
     .select {
