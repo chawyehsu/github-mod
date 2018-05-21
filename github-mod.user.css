@@ -289,6 +289,15 @@
     .refined-github .issues-listing .table-list-header {
         top: 56px;
     }
+    .refined-github .reponav-dropdown .dropdown-menu {
+        z-index: 9;
+    }
+    .refined-github #org-members-table .bulk-actions-header {
+        top: 56px;
+    }
+    #org-members-table .member-list-item .dropdown-menu {
+       z-index: 8;
+    }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-profile) {
