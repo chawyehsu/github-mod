@@ -271,9 +271,23 @@
     #js-pjax-container > .container.mt-4 {
         padding-top: 24px;
     }
+    .refined-github .file {
+        z-index: 1;
+    }
     .refined-github .file .file-header {
         top: 56px;
-        z-index: 9;
+    }
+    .refined-github .pull-request-tab-content .diff-view .file {
+        z-index: 1;
+    }
+    .refined-github .pull-request-tab-content .diff-view .file-header {
+        top: 114px;
+    }
+    .refined-github .issues-listing {
+        z-index: 1;
+    }
+    .refined-github .issues-listing .table-list-header {
+        top: 56px;
     }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
