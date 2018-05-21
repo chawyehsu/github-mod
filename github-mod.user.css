@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.1.1
+@version      1.2.0
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -156,7 +156,7 @@
     input[type="url"], select, textarea {
         box-shadow: none;
     }
-    .label {
+    .label, .Label {
         box-shadow: none;
     }
     .button.primary:disabled, .button.primary:disabled:hover,
@@ -297,6 +297,9 @@
     }
     #org-members-table .member-list-item .dropdown-menu {
        z-index: 8;
+    }
+    .IssueLabel {
+        box-shadow: none;
     }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
