@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.0
+@version      1.2.1
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -171,7 +171,7 @@
         background-color: #0366D6;
     }
     .discussion-sidebar {
-        top: 54px !important;
+        top: 60px !important;
         z-index: 5;
         position: sticky;
     }
@@ -195,7 +195,7 @@
         padding: 25px 0;
     }
     body.menu-active .modal-backdrop {
-        z-index: 4;
+        z-index: 0;
     }
     .pagehead ul.pagehead-actions {
         z-index: 5;
@@ -210,16 +210,16 @@
         z-index: 5;
     }
     body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 54px;
+        top: 60px;
     }
     .muted-link:focus {
         text-decoration: none;
     }
     .user-profile-sticky-bar, .user-profile-sticky-bar.is-stuck::after {
-        top: 54px;
+        top: 60px;
     }
     .user-profile-nav {
-        top: 54px !important;
+        top: 60px !important;
     }
     .user-profile-sticky-bar, .user-profile-nav.is-stuck {
         z-index: 6;
@@ -275,25 +275,25 @@
         z-index: 1;
     }
     .refined-github .file .file-header {
-        top: 56px;
+        top: 60px;
     }
     .refined-github .pull-request-tab-content .diff-view .file {
         z-index: 1;
     }
-    .refined-github .pull-request-tab-content .diff-view .file-header {
-        top: 114px;
+    .rgh-sticky-header .pull-request-tab-content .diff-view .file-header {
+        top: 120px !important;
     }
     .refined-github .issues-listing {
         z-index: 1;
     }
     .refined-github .issues-listing .table-list-header {
-        top: 56px;
+        top: 60px;
     }
     .refined-github .reponav-dropdown .dropdown-menu {
         z-index: 9;
     }
     .refined-github #org-members-table .bulk-actions-header {
-        top: 56px;
+        top: 60px;
     }
     #org-members-table .member-list-item .dropdown-menu {
        z-index: 8;
@@ -301,24 +301,25 @@
     .IssueLabel {
         box-shadow: none;
     }
+    .is-stuck + .toolbar-shadow {
+        top: 120px;
+        z-index: 3;
+    }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
-    body.logged-in:not(.session-authentication):not(.page-profile) {
-        margin-top: 54px;
+    body.logged-in:not(.session-authentication):not(.page-responsive) {
+        padding-top: 60px;
     }
-    body.logged-in.page-profile {
-        margin-top: 78px;
-    }
-    body.logged-in .repohead {
-        padding-top: 20px;
-    }
-    body.logged-in.page-profile #js-flash-container .flash {
-        margin-top: -23px;
+    body.logged-in.page-responsive {
+        padding-top: 62px;
     }
 }
 @-moz-document regexp("^https?:\/\/gist\.github\.com\/.*$") {
     body.logged-in:not(.session-authentication) {
-        margin-top: 54px;
+        padding-top: 54px;
+    }
+    .refined-github .file .file-header {
+        top: 54px;
     }
 }
 @-moz-document regexp("^https?:\/\/developer\.github\.com\/.*$") {
