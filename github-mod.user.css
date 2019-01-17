@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.1
+@version      1.2.2
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -171,9 +171,13 @@
         background-color: #0366D6;
     }
     .discussion-sidebar {
-        top: 60px !important;
+        top: 120px !important;
         z-index: 5;
         position: sticky;
+    }
+    .discussion-sidebar.rgh-sticky-sidebar {
+        top: 120px !important;
+        z-index: 5 !important;
     }
     .btn-secret:disabled, .btn-secret:disabled:hover,
     .btn-secret.disabled, .btn-secret.disabled:hover {
@@ -286,9 +290,6 @@
     .refined-github .issues-listing {
         z-index: 1;
     }
-    .refined-github .issues-listing .table-list-header {
-        top: 60px;
-    }
     .refined-github .reponav-dropdown .dropdown-menu {
         z-index: 9;
     }
@@ -304,6 +305,12 @@
     .is-stuck + .toolbar-shadow {
         top: 120px;
         z-index: 3;
+    }
+    .gh-header .gh-header-sticky.is-stuck {
+        top: 60px !important;
+    }
+    .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
+        top: 60px;
     }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
