@@ -343,61 +343,14 @@
     }
 }
 @-moz-document regexp("^https?:\/\/help\.github\.com\/.*$") {
-    #header {
+    body > div:first-child {
         position: fixed;
         width: 100%;
-        background: none;
-        box-shadow: none;
-        background-color: #FAFAFA;
+        z-index: 10;
         top: 0;
     }
     body {
-        top: 50px;
-    }
-    .minibutton:hover {
-        background-color: #3072B3;
-    }
-    ul#bootcamp li a h4 {
-        background: none;
-        background-color: #DEE7EC;
-        text-shadow: none;
-    }
-    ul#bootcamp li a:hover h4 {
-        background-color: #AFC5D0;
-    }
-    div.search-form.big button {
-        background-image: none;
-    }
-    div.search-form.small button {
-        background-image: none;
-    }
-    .markdown-format .alert {
-        text-shadow: none;
-        box-shadow: none;
-        background: none;
-        background-color: #D8EBF8;
-    }
-    .markdown-format .alert.tip {
-        background: none;
-        background-color: #D8EBF8;
-    }
-    .markdown-format .alert.note {
-        background: none;
-        background-color: #DBE2D3;
-    }
-    .markdown-format .alert.warning {
-        background: none;
-        background-color: #FFE3C8;
-    }
-    .markdown-format .alert.danger {
-        background: none;
-        background-color: #F8D8D8;
-    }
-    .octicon-comment-discussion {
-        vertical-align: inherit;
-    }
-    .markdown-format pre.command-line {
-        border: none;
+        padding-top: 74px;
     }
 }
 @-moz-document regexp("^https?:\/\/githubengineering\.com\/(?!atom\.xml).*$") {
