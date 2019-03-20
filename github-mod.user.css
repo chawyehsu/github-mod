@@ -308,6 +308,9 @@
     .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
         top: 56px;
     }
+    .refined-github body > .footer {
+        opacity: 1;
+    }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-responsive) {
