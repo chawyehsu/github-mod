@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.2
+@version      1.2.3
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -186,7 +186,7 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header-old {
         position: fixed;
         width: 100%;
         z-index: 10;
