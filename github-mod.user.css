@@ -171,12 +171,12 @@
         background-color: #0366D6;
     }
     .discussion-sidebar {
-        top: 120px !important;
+        top: 116px !important;
         z-index: 5;
         position: sticky;
     }
     .discussion-sidebar.rgh-sticky-sidebar {
-        top: 120px !important;
+        top: 116px !important;
         z-index: 5 !important;
     }
     .btn-secret:disabled, .btn-secret:disabled:hover,
@@ -214,16 +214,16 @@
         z-index: 5;
     }
     body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 60px;
+        top: 56px;
     }
     .muted-link:focus {
         text-decoration: none;
     }
     .user-profile-sticky-bar, .user-profile-sticky-bar.is-stuck::after {
-        top: 60px;
+        top: 56px;
     }
     .user-profile-nav {
-        top: 60px !important;
+        top: 56px !important;
     }
     .user-profile-sticky-bar, .user-profile-nav.is-stuck {
         z-index: 6;
@@ -233,10 +233,6 @@
     }
     .js-site-search.scoped-search .awesome-autocomplete .twitter-typeahead {
         width: 100%;
-    }
-    body.logged-in .pr-toolbar.is-stuck + .pr-toolbar-shadow {
-        top: 114px;
-        z-index: 4;
     }
     .discussion-item-icon .octicon {
         margin: 6px auto;
@@ -279,13 +275,13 @@
         z-index: 1;
     }
     .refined-github .file .file-header {
-        top: 60px;
+        top: 56px;
     }
     .refined-github .pull-request-tab-content .diff-view .file {
         z-index: 1;
     }
     .rgh-sticky-header .pull-request-tab-content .diff-view .file-header {
-        top: 120px !important;
+        top: 116px !important;
     }
     .refined-github .issues-listing {
         z-index: 1;
@@ -294,7 +290,7 @@
         z-index: 9;
     }
     .refined-github #org-members-table .bulk-actions-header {
-        top: 60px;
+        top: 56px;
     }
     #org-members-table .member-list-item .dropdown-menu {
        z-index: 8;
@@ -303,30 +299,33 @@
         box-shadow: none;
     }
     .is-stuck + .toolbar-shadow {
-        top: 120px;
+        top: 116px;
         z-index: 3;
     }
     .gh-header .gh-header-sticky.is-stuck {
-        top: 60px !important;
+        top: 56px !important;
     }
     .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
-        top: 60px;
+        top: 56px;
     }
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-responsive) {
-        padding-top: 60px;
+        padding-top: 56px;
     }
     body.logged-in.page-responsive {
-        padding-top: 62px;
+        padding-top: 56px;
     }
 }
 @-moz-document regexp("^https?:\/\/gist\.github\.com\/.*$") {
-    body.logged-in:not(.session-authentication) {
-        padding-top: 54px;
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
     }
-    .refined-github .file .file-header {
-        top: 54px;
+    body.logged-in:not(.session-authentication) {
+        padding-top: 66px;
     }
 }
 @-moz-document regexp("^https?:\/\/developer\.github\.com\/.*$") {
