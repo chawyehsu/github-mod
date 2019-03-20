@@ -363,3 +363,21 @@
         padding-top: 43px;
     }
 }
+@-moz-document regexp("^https?:\/\/github\.blog\/.*$") {
+    body > .top-bar {
+        display: none;
+    }
+    .site-header {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        background-color: #fff;
+    }
+    .site-header > .py-3 {
+        padding: 0 !important;
+    }
+    body {
+        padding-top: 72px;
+    }
+}
