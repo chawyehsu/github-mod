@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.4
+@version      1.2.5
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -271,17 +271,17 @@
     #js-pjax-container > .container.mt-4 {
         padding-top: 24px;
     }
-    .refined-github .file {
+    .file {
         z-index: 1;
     }
-    .refined-github .file .file-header {
+    .file .file-header {
         top: 56px;
     }
-    .refined-github .pull-request-tab-content .diff-view .file {
+    .pull-request-tab-content .diff-view .file {
         z-index: 1;
     }
-    .rgh-sticky-header .pull-request-tab-content .diff-view .file-header {
-        top: 116px !important;
+    .pull-request-tab-content .diff-view .file-header {
+        top: 116px;
     }
     .refined-github .issues-listing {
         z-index: 1;
