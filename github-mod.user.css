@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.5
+@version      1.2.6
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -219,13 +219,13 @@
     .muted-link:focus {
         text-decoration: none;
     }
-    .user-profile-sticky-bar, .user-profile-sticky-bar.is-stuck::after {
+    body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-sticky-bar.is-stuck::after {
         top: 56px;
     }
-    .user-profile-nav {
+    body:not(.logged-out) .user-profile-nav {
         top: 56px !important;
     }
-    .user-profile-sticky-bar, .user-profile-nav.is-stuck {
+    body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-nav.is-stuck {
         z-index: 6;
     }
     .add-line-comment {
