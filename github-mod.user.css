@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.2.6
+@version      1.2.7
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/synthtech/github-mod
@@ -171,12 +171,12 @@
         background-color: #0366D6;
     }
     .discussion-sidebar {
-        top: 116px !important;
+        top: 124px !important;
         z-index: 5;
         position: sticky;
     }
     .discussion-sidebar.rgh-sticky-sidebar {
-        top: 116px !important;
+        top: 124px !important;
         z-index: 5 !important;
     }
     .btn-secret:disabled, .btn-secret:disabled:hover,
@@ -186,7 +186,7 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header-old {
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
         position: fixed;
         width: 100%;
         z-index: 10;
@@ -214,16 +214,16 @@
         z-index: 5;
     }
     body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 56px;
+        top: 64px;
     }
     .muted-link:focus {
         text-decoration: none;
     }
     body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-sticky-bar.is-stuck::after {
-        top: 56px;
+        top: 64px;
     }
     body:not(.logged-out) .user-profile-nav {
-        top: 56px !important;
+        top: 64px !important;
     }
     body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-nav.is-stuck {
         z-index: 6;
@@ -275,13 +275,13 @@
         z-index: 1;
     }
     .file .file-header {
-        top: 56px;
+        top: 64px;
     }
     .pull-request-tab-content .diff-view .file {
         z-index: 1;
     }
     .pull-request-tab-content .diff-view .file-header {
-        top: 116px;
+        top: 124px;
     }
     .refined-github .issues-listing {
         z-index: 1;
@@ -290,7 +290,7 @@
         z-index: 9;
     }
     .refined-github #org-members-table .bulk-actions-header {
-        top: 56px;
+        top: 64px;
     }
     #org-members-table .member-list-item .dropdown-menu {
        z-index: 8;
@@ -299,14 +299,14 @@
         box-shadow: none;
     }
     .is-stuck + .toolbar-shadow {
-        top: 116px;
+        top: 124px;
         z-index: 3;
     }
     .gh-header .gh-header-sticky.is-stuck {
-        top: 56px !important;
+        top: 64px !important;
     }
     .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
-        top: 56px;
+        top: 64px;
     }
     .refined-github body > .footer {
         opacity: 1;
@@ -314,21 +314,21 @@
 }
 @-moz-document regexp("^https?:\/\/github\.com\/.*$") {
     body.logged-in:not(.session-authentication):not(.page-responsive) {
-        padding-top: 56px;
+        padding-top: 64px;
     }
     body.logged-in.page-responsive {
-        padding-top: 56px;
+        padding-top: 64px;
     }
 }
 @-moz-document regexp("^https?:\/\/gist\.github\.com\/.*$") {
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
+    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header-old {
         position: fixed;
         width: 100%;
         z-index: 10;
         top: 0;
     }
     body.logged-in:not(.session-authentication) {
-        padding-top: 66px;
+        padding-top: 58px;
     }
 }
 @-moz-document regexp("^https?:\/\/developer\.github\.com\/.*$") {
