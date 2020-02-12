@@ -200,15 +200,6 @@
     .muted-link:focus {
         text-decoration: none;
     }
-    body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-sticky-bar.is-stuck::after {
-        top: 64px;
-    }
-    body:not(.logged-out) .user-profile-nav {
-        top: 64px !important;
-    }
-    body:not(.logged-out) .user-profile-sticky-bar, body:not(.logged-out) .user-profile-nav.is-stuck {
-        z-index: 6;
-    }
     .add-line-comment {
         z-index: 4;
     }
