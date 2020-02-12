@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.3.0
+@version      1.4.0
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/h404bi/github-mod
@@ -173,12 +173,6 @@
     .discussion-item .label-color {
         box-shadow: none;
     }
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        top: 0;
-    }
     .gist-snippet .link-overlay {
         z-index: 5;
     }
@@ -300,72 +294,12 @@
         opacity: 1;
     }
 }
-@-moz-document regexp("^https?:\/\/github\.com\/.*$") {
-    body.logged-in:not(.session-authentication):not(.page-responsive) {
-        padding-top: 64px;
-    }
-    body.logged-in.page-responsive {
-        padding-top: 64px;
-    }
-}
-@-moz-document regexp("^https?:\/\/gist\.github\.com\/.*$") {
-    body.logged-in:not(.session-authentication) > .js-header-wrapper > .Header-old {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        top: 0;
-    }
-    body.logged-in:not(.session-authentication) {
-        padding-top: 58px;
-    }
-}
-@-moz-document regexp("^https?:\/\/developer\.github\.com\/.*$") {
-    header.site-header {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        top: 0;
-    }
-    body {
-        padding-top: 85px;
-    }
-}
-@-moz-document regexp("^https?:\/\/help\.github\.com\/.*$") {
-    body > div:first-child {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        top: 0;
-    }
-    body {
-        padding-top: 74px;
-    }
-}
-@-moz-document regexp("^https?:\/\/githubengineering\.com\/(?!atom\.xml).*$") {
-    header {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-    }
-    body > section:first-of-type {
-        padding-top: 43px;
-    }
-}
+
 @-moz-document regexp("^https?:\/\/github\.blog\/.*$") {
-    body > .top-bar {
-        display: none;
+    .btn {
+        border-radius: 0;
     }
-    .site-header {
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        top: 0;
-        background-color: #fff;
-    }
-    .site-header > .py-3 {
-        padding: 0 !important;
-    }
-    body {
-        padding-top: 72px;
+    .category-block {
+        border-radius: 0;
     }
 }
