@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/synthtech
-@version      1.4.0
+@version      1.5.0
 @description  A flat userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/h404bi/github-mod
@@ -191,12 +191,6 @@
     .select-menu-modal-holder {
         z-index: 5;
     }
-    .pr-toolbar {
-        z-index: 5;
-    }
-    body.logged-in .pr-toolbar, .pr-toolbar.is-stuck::after {
-        top: 64px;
-    }
     .muted-link:focus {
         text-decoration: none;
     }
@@ -243,18 +237,6 @@
     #js-pjax-container > .container.mt-4 {
         padding-top: 24px;
     }
-    .file {
-        z-index: 1;
-    }
-    .file .file-header {
-        top: 64px;
-    }
-    .pull-request-tab-content .diff-view .file {
-        z-index: 1;
-    }
-    .pull-request-tab-content .diff-view .file-header {
-        top: 124px;
-    }
     .refined-github .issues-listing {
         z-index: 1;
     }
@@ -269,10 +251,6 @@
     }
     .IssueLabel {
         box-shadow: none;
-    }
-    .is-stuck + .toolbar-shadow {
-        top: 124px;
-        z-index: 3;
     }
     .gh-header .gh-header-sticky.is-stuck {
         top: 64px !important;
