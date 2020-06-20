@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         Github Mod
-@namespace    https://github.com/synthtech
-@version      1.5.0
-@description  A flat userstyle for GitHub
+@namespace    https://github.com/chawyehsu
+@version      1.6.0
+@description  A flat and sharp userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
-@homepageURL  https://github.com/h404bi/github-mod
-@supportURL   https://github.com/h404bi/github-mod/issues
+@homepageURL  https://github.com/chawyehsu/github-mod
+@supportURL   https://github.com/chawyehsu/github-mod/issues
 @license      CC0-1.0
 ==/UserStyle== */
 @-moz-document domain("github.com") {
@@ -98,8 +98,11 @@
     .new-user-avatar-cta {
         display: none;
     }
+    .btn, .Counter, .state, .State {
+        font-weight: 600;
+    }
     /* stylelint-disable max-line-length */
-    *:not(.mail-status):not(.discussion-item-icon):not(.pinned-repo-language-color):not(.branch-action-item-icon):not(.color-block):not(.repo-language-color) {
+    *:not(.mail-status):not(.pinned-repo-language-color):not(.branch-action-item-icon):not(.color-block):not(.repo-language-color) {
         /* stylelint-enable */
         border-radius: 0 !important;
     }
@@ -135,7 +138,7 @@
     .flash:not(.Box-body) {
         border: none;
     }
-    .select {
+    .btn, .social-count, .select {
         box-shadow: none;
     }
     .form-control, input[type="text"], input[type="password"],
@@ -250,6 +253,7 @@
        z-index: 8;
     }
     .IssueLabel {
+        font-weight: 600;
         box-shadow: none;
     }
     .gh-header .gh-header-sticky.is-stuck {
@@ -261,6 +265,10 @@
     }
     .refined-github body > .footer {
         opacity: 1;
+    }
+    .user-status-circle-badge-container {
+        margin-bottom: 0;
+        margin-left: -38px;
     }
 }
 
