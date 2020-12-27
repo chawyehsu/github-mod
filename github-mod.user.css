@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/chawyehsu
-@version      1.6.2
+@version      1.6.3
 @description  A flat and sharp userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/chawyehsu/github-mod
@@ -275,7 +275,8 @@
         margin-bottom: 0;
         margin-left: -38px;
     }
-    .tab-size[data-tab-size="8"] {
+    .tab-size[data-tab-size="8"],
+    .markdown-body pre {
         tab-size: 4 !important;
     }
 }
