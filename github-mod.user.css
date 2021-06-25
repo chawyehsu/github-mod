@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/chawyehsu
-@version      1.6.3
+@version      1.6.4
 @description  A flat and sharp userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/chawyehsu/github-mod
@@ -254,9 +254,6 @@
     }
     .refined-github #org-members-table .bulk-actions-header {
         top: 64px;
-    }
-    #org-members-table .member-list-item .dropdown-menu {
-       z-index: 8;
     }
     .IssueLabel {
         box-shadow: none;
