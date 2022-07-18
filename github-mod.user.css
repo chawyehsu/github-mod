@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/chawyehsu
-@version      1.6.4
+@version      1.6.5
 @description  A flat and sharp userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/chawyehsu/github-mod
@@ -92,6 +92,10 @@
         font-family: "Open Sans", sans-serif;
     }
     .intgrs-page .main-content {
+        font-family: "Open Sans", sans-serif;
+    }
+    /* Gitako: https://github.com/EnixCoda/Gitako *\/
+    .gitako-side-bar {
         font-family: "Open Sans", sans-serif;
     }
     .btn, .Counter, .state, .State, .IssueLabel {
