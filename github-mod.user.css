@@ -76,7 +76,9 @@
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
     /* add Open Sans font *\/
-    body, input, select, textarea, button {
+    body, input, select, button,
+    textarea:not(#read-only-cursor-text-area),
+    [class^="BaseStyles__"] {
         font-family: "Open Sans", sans-serif !important;
     }
     .markdown-body {
@@ -265,16 +267,16 @@
     .gh-header .gh-header-sticky.is-stuck {
         top: 64px !important;
     }
-    .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
-        top: 64px;
-        z-index: 9;
-    }
     .refined-github body > .footer {
         opacity: 1;
     }
     .user-status-circle-badge-container {
         margin-bottom: 0;
         margin-left: -38px;
+    }
+    #read-only-cursor-text-area::selection {
+        color: transparent;
+        background-color: #ddd;
     }
     .tab-size[data-tab-size="8"],
     .markdown-body pre {
