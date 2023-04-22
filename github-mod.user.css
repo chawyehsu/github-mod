@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Github Mod
 @namespace    https://github.com/chawyehsu
-@version      1.6.6
+@version      1.6.7
 @description  A flat and sharp userstyle for GitHub
 @author       synthtech (https://github.com/synthtech)
 @homepageURL  https://github.com/chawyehsu/github-mod
@@ -277,10 +277,6 @@
     #read-only-cursor-text-area::selection {
         color: transparent;
         background-color: #ddd;
-    }
-    .tab-size[data-tab-size="8"],
-    .markdown-body pre {
-        tab-size: 4 !important;
     }
 }
 
