@@ -22,6 +22,10 @@
 **Note**: There might be some corner cases that the style doesn't work well.
 If you find any, please open an issue and I'll try to fix it.
 
+**Note 2**: If you are using this userstyle with the Open Sans font enabled under
+Firefox family browsers, then you may need to switch the `Patch CSP to allow style assets`
+Stylus option **on** to allow webfont assets to be loaded.
+
 ## Related works
 
 - [Reddit Mod]: Flattened and minimalist theme for Reddit, with dark mode support.
