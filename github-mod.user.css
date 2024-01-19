@@ -369,7 +369,6 @@
     }
     #read-only-cursor-text-area::selection {
         color: transparent;
-        background-color: #ddd;
     }
 }
 
